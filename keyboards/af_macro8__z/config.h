@@ -1,0 +1,9 @@
+
+
+#define BACKLIGHT_PINS { D0, C6 }
+#define BACKLIGHT_LEVELS 8
+
+#define BOOTMAGIC_ROW 2
+#define BOOTMAGIC_COLUMN 0
+
+#define MIDI_ADVANCED

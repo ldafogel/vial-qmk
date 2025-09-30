@@ -1,0 +1,19 @@
+{
+    "matrix": {
+        "rows": 10,
+        "cols": 2
+    },
+    "lighting": "qmk_backlight",
+    "layouts": {
+        "keymap": [
+            [{a:7},"1","2","3","4","5","6","7","8"]
+        ]
+    },
+
+    "vial": {
+        "midi": "advanced"
+     },
+
+    "customKeycodes": [
+    ]
+}

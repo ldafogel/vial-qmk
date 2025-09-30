@@ -1,0 +1,19 @@
+{
+    "name": "BetterGoButton",
+    "vendorId": "0x6166",
+    "productId": "0x4248",
+    "matrix": {
+        "rows": 10,
+        "cols": 2
+    },
+    "layouts": {
+        "keymap": [
+            ["4,0\n\n\n\n\n\n\n\n\nBACK"],
+            ["2,0\n\n\n\n\n\n\n\n\nGO"]
+        ]
+    },
+
+    "menus": ["qmk_backlight"]
+
+
+}
