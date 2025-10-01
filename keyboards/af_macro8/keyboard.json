@@ -4,22 +4,13 @@
     "maintainer": "AF",
     "development_board": "promicro",
     "features": {
-        "bootmagic": true,
+        // "bootmagic": true,
         "extrakey": true,
         "mousekey": true
     },
     "matrix_pins": {
         "direct": [
-            ["D3", null],
-            ["D2", null],
-            ["D1", "F4"],
-            ["D0", "F5"],
-            ["D4", "F6"],
-            ["C6", "F7"],
-            ["D7", "B1"],
-            ["E6", "B3"],
-            ["B4", "B2"],
-            ["B5", null]
+            ["D1", "D0", "D4", "C6", "D7", "E6", "B4", "B5"]
         ]
     },
     "usb": {
@@ -33,16 +24,15 @@
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"label": "D3", "matrix": [0, 0], "x": 0, "y": 0},
-                {"label": "D2", "matrix": [1, 0], "x": 0, "y": 1},
-                {"label": "D1", "matrix": [2, 0], "x": 0, "y": 4}, {"label": "F4", "matrix": [2, 1], "x": 2, "y": 4},
-                {"label": "D0", "matrix": [3, 0], "x": 0, "y": 5}, {"label": "F5", "matrix": [3, 1], "x": 2, "y": 5},
-                {"label": "D4", "matrix": [4, 0], "x": 0, "y": 6}, {"label": "F6", "matrix": [4, 1], "x": 2, "y": 6},
-                {"label": "C6", "matrix": [5, 0], "x": 0, "y": 7}, {"label": "F7", "matrix": [5, 1], "x": 2, "y": 7},
-                {"label": "D7", "matrix": [6, 0], "x": 0, "y": 8}, {"label": "B1", "matrix": [6, 1], "x": 2, "y": 8},
-                {"label": "E6", "matrix": [7, 0], "x": 0, "y": 9}, {"label": "B3", "matrix": [7, 1], "x": 2, "y": 9},
-                {"label": "B4", "matrix": [8, 0], "x": 0, "y": 10}, {"label": "B2", "matrix": [8, 1], "x": 2, "y": 10},
-                {"label": "B5", "matrix": [9, 0], "x": 0, "y": 11}
+                {"label": "D1", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "D0", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "D4", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "C6", "matrix": [0, 3], "x": 3, "y": 0},
+                {"label": "D7", "matrix": [0, 4], "x": 4, "y": 0},
+                {"label": "E6", "matrix": [0, 5], "x": 5, "y": 0},
+                {"label": "B4", "matrix": [0, 6], "x": 6, "y": 0},
+                {"label": "B5", "matrix": [0, 7], "x": 7, "y": 0}
+
             ]
         }
     }
