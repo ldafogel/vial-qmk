@@ -1,19 +1,21 @@
-# DirectPins
+# afMacro8 – 1×8 Macropad (Pro Micro, SK6812)
 
-![Promicro Pinout Guide](https://i.imgur.com/LZ194Hf.jpg)
+Hardware: Arduino Pro Micro (5V/16MHz), 8× MX switches to ground (direct pins), SK6812mini chain (8 LEDs) with 400Ω series resistor on DI and 0.1µF per LED, bulk cap near USB.
 
-Easily assign keys to pins for your custom project using QMK Configurator.
+Pins (from your KiCad):
 
-* Keyboard Maintainer: [Zach White](https://github.com/skullydazed)
-* Hardware Supported: Promicro
-* Hardware Availability: Sparkfun, chinese clones
+- S1..S8 → D1, D0, D4, C6, B5, B4, E6, D7
 
-Make example for this keyboard (after setting up your build environment):
+- RGB DI → B6
 
-    qmk compile -kb ez_maker/directpins/promicro -km default
+Build (from QMK root):
 
-Flashing example for this keyboard:
+```
+make afmacro8:vial
+```
 
-    qmk flash -kb ez_maker/directpins/promicro -km default
+Flash to Pro Micro (Caterina):
 
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+```
+make afmacro8:vial:flash
+```

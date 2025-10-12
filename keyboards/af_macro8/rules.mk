@@ -1,8 +1,18 @@
-BACKLIGHT_ENABLE = yes
-BACKLIGHT_DRIVER = pwm
+# QMK build options
+MCU = atmega32u4
+BOOTLOADER = caterina
+
+# Features
 VIA_ENABLE = yes
-
-
+VIAL_ENABLE = yes
+LTO_ENABLE = yes
 BOOTMAGIC_ENABLE = yes
+MOUSEKEY_ENABLE = no
+EXTRAKEY_ENABLE = yes
+CONSOLE_ENABLE = no
+COMMAND_ENABLE = no
+NKRO_ENABLE = yes
 
-MIDI_ENABLE = yes
+# Lighting
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = pwm
