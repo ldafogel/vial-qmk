@@ -1,4 +1,9 @@
+
 #pragma once
-#define VIAL_COMBO_ENTRIES 0
-#define VIAL_TAP_DANCE_ENTRIES 0
-#define VIAL_ENCODERS 0
+#define VIAL_KEYBOARD_UID {0x58, 0xAD, 0x27, 0x23, 0x90, 0xA8, 0x72, 0x68}
+
+// #define DYNAMIC_KEYMAP_LAYER_COUNT 2
+
+
+// #define MIDI_ADVANCED
+

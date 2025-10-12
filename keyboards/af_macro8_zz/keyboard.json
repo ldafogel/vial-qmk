@@ -1,27 +1,31 @@
 {
-  "keyboard_name": "afMacro8",
-  "manufacturer": "Alex Fogel",
-  "usb": {
-    "vid": "0xA1F0",
-    "pid": "0xAF08",
-    "device_version": "0.0.1"
-  },
-  "processor": "atmega32u4",
-  "bootloader": "caterina",
-  "diode_direction": "COL2ROW",
-  "matrix_pins": {
-    "cols": [
-      "D1",
-      "D0",
-      "D4",
-      "C6",
-      "B5",
-      "B4",
-      "E6",
-      "D7"
-    ],
-    "rows": []
-  },
+    "manufacturer": "Alex Fogel Design",
+    "keyboard_name": "AF_Macro8",
+    "maintainer": "AF",
+    "development_board": "promicro",
+    "features": {
+        // "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true
+    },
+    "matrix_pins": {
+        "direct": [
+                [
+                "D1",
+                "D0",
+                "D4",
+                "C6",
+                "B5",
+                "B4",
+                "E6",
+                "D7"
+                ]
+        ]
+    },
+
+    "layout_aliases": {
+        "LAYOUT_all": "LAYOUT"
+    },
   "layouts": {
     "LAYOUT": {
       "layout": [

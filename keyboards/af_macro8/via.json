@@ -1,0 +1,27 @@
+{
+    "name": "af_macro8",
+    "vendorId": "0x6166",
+    "productId": "0x4248",
+    "matrix": {
+        "rows": 1,
+        "cols": 8
+    },
+    "layouts": {
+        "keymap": [
+            [
+                "0,0",
+                "0,1",
+                "0,2",
+                "0,3",
+                "0,4",
+                "0,5",
+                "0,6",
+                "0,7"
+            ]
+        ]
+    },
+
+    "menus": ["qmk_backlight"]
+
+
+}

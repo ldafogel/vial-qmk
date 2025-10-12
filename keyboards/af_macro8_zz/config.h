@@ -1,0 +1,16 @@
+#pragma once
+
+/* Debounce */
+#define DEBOUNCE 5
+
+/* RGB LED chain */
+#define WS2812_DI_PIN B6
+#define RGBLED_NUM 8
+#define RGBLIGHT_LIMIT_VAL 140
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+
+
+#define BOOTMAGIC_ROW 0
+#define BOOTMAGIC_COLUMN 0
