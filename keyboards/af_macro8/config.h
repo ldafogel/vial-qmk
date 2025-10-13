@@ -1,7 +1,7 @@
 
 
 #define WS2812_DI_PIN B6
-// #define RGB_MATRIX_CENTER { 0, 3 }
+#define RGB_MATRIX_CENTER { 0, 3 }
 
 
 #define BOOTMAGIC_ROW 0
