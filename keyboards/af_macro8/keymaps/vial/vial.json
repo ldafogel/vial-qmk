@@ -3,6 +3,28 @@
         "rows": 1,
         "cols": 8
     },
+    "customKeycodes": [
+        {"name": "AF_RGB_WHITE",
+        "title": "AF_RGB_WHITE",
+        "shortName": "AF_RGB_WHITE"
+        },
+        {"name": "AF_RGB_RED",
+        "title": "AF_RGB_RED",
+        "shortName": "AF_RGB_RED"
+        },
+        {"name": "AF_RGB_GREEN",
+        "title": "AF_RGB_GREEN",
+        "shortName": "AF_RGB_GREEN"
+        },
+        {"name": "AF_RGB_BLUE",
+        "title": "AF_RGB_BLUE",
+        "shortName": "AF_RGB_BLUE"
+        },
+        {"name": "AF_RGB_EOS",
+        "title": "AF_RGB_EOS",
+        "shortName": "AF_RGB_EOS"
+        }
+    ],
     "lighting": "vialrgb",
     "layouts": {
         "keymap": [
